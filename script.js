@@ -21,7 +21,7 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
     var totalamount = interest + principal
 
-    document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+totalamount+",\<br\>in the year "+year+"\<br\>"
+    document.getElementById("result").innerHTML="If you deposit "+"<span class='tagged'>"+principal+"</span>"+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+totalamount+",\<br\>in the year "+year+"\<br\>"
 
 }
 //Slider updates function
